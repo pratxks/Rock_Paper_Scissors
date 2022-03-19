@@ -243,7 +243,7 @@ public class RockPaperScissorsFrame extends JFrame
         resultDisplayPanel = new JPanel();
         
         Font textAreaFont  = new Font(Font.SERIF,  Font.BOLD, 22);
-        resultDisplayArea = new JTextArea(5, 40);
+        resultDisplayArea = new JTextArea(8, 40);
         resultDisplayArea.setFont(textAreaFont);
         resultDisplayArea.setEditable(false);
         resultDisScrollPane = new JScrollPane(resultDisplayArea);
